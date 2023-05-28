@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <h1 class="mt-2 text-center">Add Institution</h1>
+            <hr class="mt-0 mb-4">
+            {% load crispy_forms_tags %}
+            <div class="container">
+                <form method="post">{% csrf_token %}
+                    {{form.name|as_crispy_field}}
+                    <div class="form-row mt-3">
+                        <div class="form-group col-6">
+                            {{form.moh_division|as_crispy_field}}
+                        </div>
+                    </div>
+
+                    <input class="btn btn-primary" type="submit" value="Save DSDivision">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

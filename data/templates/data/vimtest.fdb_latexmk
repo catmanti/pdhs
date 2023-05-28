@@ -1,0 +1,20 @@
+# Fdb version 4
+["pdflatex"] 1683949391 "/Users/catman/Documents/dev/dj/planning/pdhs/data/templates/data/vimtest.tex" "vimtest.pdf" "vimtest" 1683949392 0
+  "/Users/catman/Documents/dev/dj/planning/pdhs/data/templates/data/vimtest.tex" 1683949391 2734 623a8e297a93fee455443bde41c3b160 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls" 1667332637 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo" 1667332637 8464 63bf71cc1214ffdd38288da73a7ca182 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1681935207 29940 9473d58112bc8a88f5505b823a053dde ""
+  "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
+  "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1683945280 4643411 5ced174c6d521e21dd58a10751c00482 ""
+  "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1683945331 7890110 c526896256b74cb720fb91696994de5b ""
+  "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
+  "vimtest.aux" 1683949392 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "vimtest.tex" 1683949391 2734 623a8e297a93fee455443bde41c3b160 ""
+  (generated)
+  "vimtest.aux"
+  "vimtest.log"
+  "vimtest.pdf"
+  (rewritten before read)

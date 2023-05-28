@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags static %}
+
+{% block content %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'login.css' %}">
+{% endblock extra_css %}
+
+<div class="row ">
+    <div class="col">
+        <div class="mx-auto w-25 p-3">
+
+            {% if form.errors %}
+            <p>Your username and password didn't match. Please try again.</p>
+            {% endif %}
+
+            {% if next %}
+            {% if user.is_authenticated %}
+            <p>Your account doesn't have access to this page. To proceed,
+                please login with an account that has access.</p>
+            {% else %}
+            <p>Please login to see this page.</p>
+            {% endif %}
+            {% endif %}
+
+            <form method="post" class="card mb-3" action="{% url 'login' %}">
+                <H5 class="card-header text-center p-3">Login</H5>
+                {% csrf_token %}
+                {{ form|crispy }}
+
+                <input class="btn btn-primary" type="submit" value="login">
+                <input type="hidden" name="next" value="{{ next }}">
+            </form>
+
+            {# Assumes you set up the password_reset view in your URLconf #}
+        </div>
+    </div>
+</div>
+{% endblock content %}
